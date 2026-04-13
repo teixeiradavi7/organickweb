@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `onboardingCompleted` enum('true','false') DEFAULT 'false' NOT NULL;
